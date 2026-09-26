@@ -8,6 +8,8 @@ njobs=`expr $njobs + $njobs`
 
 install_prefix=$(brew --prefix)
 
+brew install graphicsmagick
+
 googletest_version=1.10.0
 
 echo "Downloading sources"
